@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.main {
+  padding: 25px 15px;
+  width: 370px;
+  border: 1px solid rgb(197, 196, 196);
+  background-color: #fffafa;
+  margin: 20px 30px;
+}
+.main0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.main1 {
+  display: flex;
+}
+.main1 h3 {
+  color: rgb(92, 90, 90);
+}
+.main1 i {
+  margin-top: 9px;
+  margin-left: 5px;
+  color: gray;
+}
+.rs h3 sup {
+  font-size: 15px;
+  color: gray;
+}
+.rs h3 {
+  font-size: 35px;
+}
+.list ul {
+  margin-bottom: 15px;
+}
+.list ul li {
+  list-style: none;
+  color: gray;
+}
+.list ul li .icon {
+  margin-right: 10px;
+}
+.list ul li .circle {
+  color: rgb(0, 132, 255);
+}
+.main01 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.s1 {
+  display: flex;
+  align-items: center;
+}
+.s1 h4 {
+  margin-left: 10px;
+  color: gray;
+}
+.s2 {
+  display: flex;
+}
+.s2 .s01 p {
+  color: gray;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.s2 .s02 p {
+  font-weight: 600;
+  font-size: 20px;
+}
+.main2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+.main2 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 110px;
+  border-radius: 10px;
+  background-color: #4cbb17;
+}
+.main2 .fa-shopping-cart {
+  position: absolute;
+  color: #fff;
+  margin-right: 150px;
+  font-size: 23px;
+}
+
+.main3 p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+.main3 p em {
+  color: gray;
+}
